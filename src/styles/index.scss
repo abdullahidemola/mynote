@@ -1,7 +1,7 @@
 @import "./_fonts";
 @import "./reset";
 @import "./variables";
-$phone: 412px;
+$phone: 820px;
 
 body {
   height: 100vh;
@@ -112,18 +112,19 @@ body {
         border-radius: 5px;
         cursor: pointer;
       }
-      @media screen and (min-width: $phone) {
+      @media screen and (max-width: $phone) {
         .note-input {
           width: 20rem;
           margin-left: auto;
         }
         input {
-          width: 150px;
-          height: 20px;
+          width: 165px;
+          height: 30px;
           background-color: pink;
+          margin-left: 10px;
         }
         .note-icon {
-          font-size: 20px;
+          font-size: 30px;
           margin-left: 10px;
           margin-right: 5px;
         }

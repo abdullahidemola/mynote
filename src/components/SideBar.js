@@ -20,5 +20,4 @@ const SideBar = ({ colors, current, setCurrent }) => {
     </div>
   );
 };
-
 export default SideBar;
